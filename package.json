@@ -2,9 +2,12 @@
   "name": "odin-weather",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://DreDre73.github.io/Simple-Weather-App",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lol": "npx webpack serve"
+    "lol": "npx webpack serve",
+    "build": "webpack", 
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +15,7 @@
   "description": "",
   "devDependencies": {
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.5",
     "style-loader": "^4.0.0",

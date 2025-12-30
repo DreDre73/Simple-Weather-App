@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Skranji:wght@400;700&family=VT323&display=swap" rel="stylesheet">
 <script defer src="main.js"></script></head>
 <body>
-    Hi everything is fine now
+
+    <header>
+        <div class="title-container">
+            <h1>Weather App</h1>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Enter Location">
+            <button class="search-btn">Search</button>
+        </div>
+    </header>
+    
+    <div class="card-container">
+        <div class="location-container">
+            <h3 id="location"></h3>
+        </div>
+
+        <div class="temp-container">
+            <p id="temp"></p>
+        </div>
+
+        <div class="real-feel-container">
+            <p id="real-feel"></p>
+        </div>
+
+        <div class="high-low-container">
+
+            <p  id="high-temp"></p>
+            <p id="low-temp"></p>
+
+        </div>
+
+        
+
+        <div class="description-container">
+            <p id="description"></p>
+        </div>
+    </div>
+
 </body>
 </html>
